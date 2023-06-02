@@ -37,16 +37,6 @@ connection.once('open', async () => {
   }
   await Thought.collection.insertMany(thoughts);
 
-  // const reactions =[];
-  // for (let i = 0; i < 10; i++) {
-  //   const reactionBody = getRandomReaction();
-  //   const newReaction = {
-  //     reactionBody: reactionBody,
-  //   };
-  //   reactions.push(newReaction);
-  // }
-  // await Reaction.collection.insertMany(reactions);
-
   console.table(users);
   console.table(thoughts);
   console.timeEnd('input complete');
