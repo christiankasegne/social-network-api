@@ -34,7 +34,7 @@ module.exports = {
           ? res.status(404).json({
               message: 'Thought created, but found no user with that id',
             })
-          : res.json('Created a thought 🎉')
+          : res.json('Thought created')
       )
       .catch((err) => {
         console.log(err);
