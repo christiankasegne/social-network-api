@@ -42,4 +42,4 @@ N/A
 
 GitHub: https://github.com/christiankasegne/social-network-api
 
-vedio: https://drive.google.com/file/d/1i2zo0RqNEDwkw45NhLKsTsSH4DYSmVvy/view
+video: https://drive.google.com/file/d/1i2zo0RqNEDwkw45NhLKsTsSH4DYSmVvy/view
